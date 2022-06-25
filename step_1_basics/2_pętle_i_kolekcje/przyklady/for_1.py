@@ -1,27 +1,29 @@
-# x = range(5)
+x = range(5)
 #
 # for i in x:
 #     print(i)
 #
-# for c in "Anna":
-#     print(c)
+for character in "Anna":
+    print(character)
 #
-# magic = "abracadabra"
-# for i in range(len(magic)):
-#     print(i, magic[i])
-#
+magic = "abracadabra"
+for index, element in enumerate(magic):
+
+    print(index, element)
+
+#nie polecam uzywac
 # i = 0
 # for character in magic:
 #     print(i, character.upper())
 #     i += 1
 #
 #
-# name = "janina"
-# upper_name = ""
+name = "janina"
+upper_name = ""
 #
-# i = 0
+i = 0
 #
-# for c in name:
+for i in name:
 #     if i % 2 ==0:
 #         upper_name += c.upper()
 #     else:

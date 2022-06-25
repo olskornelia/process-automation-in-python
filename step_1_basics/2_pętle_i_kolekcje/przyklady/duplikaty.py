@@ -11,3 +11,6 @@ for element in lista:
 print("Lista bez duplikatów: ")
 print(lista_bez_duplikatow)
 
+zestaw = 16000 - len(set(lista))
+print(zestaw)
+

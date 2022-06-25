@@ -46,6 +46,6 @@ print(string)
 # ukłon w stronę ECMAscript2016
 name = 'Fred'
 seven = 7
-string = f'''He said his name is {name.upper()}
+string = '''He said his name is {name.upper()}
 and he is {6 * seven} years old.'''
 print(string)

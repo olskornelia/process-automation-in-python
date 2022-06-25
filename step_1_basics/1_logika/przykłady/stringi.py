@@ -20,3 +20,4 @@ print(f"Jsdna trzecia to {1/3:.3f}")
 
 print("Twoj wzrost w centymetrach to {wzrost}, a wiek w latach to {wiek}".format(wzrost=173, wiek=34))
 print(f"Twoj wzrost w centymetrach to {wzrost}, a wiek w latach to {wiek}")
+print(f"Twoj {wzrost=} cm, a {wiek=} lat")

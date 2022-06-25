@@ -23,8 +23,10 @@ agnieszka = {"kwiatek": "hiacynt",
 # for key, value in krystyna.items():
 #     print(f"{key} = {value}")
 
+#slownik krystyna zostal nadpisany o wartosci w slowniku agnieszka
 # krystyna.update(agnieszka)
 # print(krystyna)
+krystyna["kokardka"] = "amarant"
 # agnieszka.update(krystyna)
 # print(agnieszka)
 # krystyna.update({"kokardka": "turkusowa"})

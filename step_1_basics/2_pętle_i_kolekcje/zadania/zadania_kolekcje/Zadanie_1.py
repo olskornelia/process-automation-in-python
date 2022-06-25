@@ -9,3 +9,7 @@ przypisz go do nowej zmiennej i wypisz na ekran.
 Podpowiedź:
 Skorzystaj z modułu random
 """
+
+kolory = ["zielony", "niebieski", "czerwony", "bialy"]
+print(kolory)
+

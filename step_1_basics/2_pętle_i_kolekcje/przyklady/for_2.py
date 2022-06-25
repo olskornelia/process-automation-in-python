@@ -19,6 +19,15 @@ print("Parzyste: {}, nieparzyste: {}".format(parzyste, nieparzyste))
 print(licznik_for)
 
 
+for _ in range(3):
+    print("podaj haslo")
 
+
+licznik_podejsc = 0
+while True:
+    print("podaj haslo")
+    licznik_podejsc += 1
+    if licznik_podejsc > 3:
+        break
 
 

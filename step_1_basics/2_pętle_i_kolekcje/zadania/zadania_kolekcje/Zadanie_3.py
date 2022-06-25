@@ -11,3 +11,24 @@ Wypisz elementy słownika na ekran w formie "klucz -> wartość"
 Podpowiedź:
 Użyj dwóch inputów do pobrania wartości
 """
+
+slownik = {}
+
+while True:
+    klucz = input("Podaj klucz, jeśli podasz słowo nie kończy się program:")
+    if klucz in slownik.keys():
+        print("Podany klucz znajduje sie juz w slowniku")
+        continue
+
+    if klucz == "nie":
+        break
+    wartosc = input("Podaj wartość, jeśli podasz słowo nie kończy się program:")
+    if wartosc == "nie":
+        break
+
+    slownik[klucz] = wartosc
+
+for key, value in slownik.items():
+     print(f"{key} = {value}")
+
+

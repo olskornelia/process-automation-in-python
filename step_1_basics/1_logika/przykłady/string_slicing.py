@@ -4,8 +4,14 @@ string = "Mój bardzo długi string wrzucę dodatkowo lorem ipsum" + lorem_ipsum
 # wyciąganie liter poprzez indeks
 print(string[2])
 
+#od 8 do 12
 print(string[8:12])
 
+# od poczatku do 20 indexu
 print(string[:20])
 
+#wyciecie co 2 litere
+print(string[:20:2])
+
+# od 76 do konca
 print(string[76:])

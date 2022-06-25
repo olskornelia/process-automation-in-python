@@ -6,4 +6,3 @@ print(x)
 
 print("I want to have it all ", end='')
 print("in one line")
-
